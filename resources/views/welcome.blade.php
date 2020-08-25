@@ -6,11 +6,14 @@
 
         <title>CodeNameBeer</title>
 
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+
     </head>
-    <body>
-<article>
-    <h1>Hit here, here i'll be tinkering around with Laravel.</h1>
-    <h2> <br>I will learn the basics on a fictional project with the code name: <br>Beer</h2>
-</article>
+    <body class="container flex mx-auto py-24 w-full justify-center">
+        <article class="text-center">
+            <h1 class="text-4xl">Hit here, here i'll be tinkering around with Laravel.</h1>
+            <h2 class="text-2xl"> <br>I will learn the basics on a fictional project with the code name:<br>
+            <p class="py-32 text-gray-600 whitespace-pre-line tracking-wider">Beer</p>
+        </article>
     </body>
 </html>
